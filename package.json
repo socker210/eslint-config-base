@@ -1,0 +1,8 @@
+{
+	"private": true,
+	"name": "@socker210/eslint-config-base",
+	"license": "MIT",
+	"peerDependencies": {
+		"eslint": ">=7"
+	}
+}
