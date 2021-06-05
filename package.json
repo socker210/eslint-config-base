@@ -22,7 +22,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "pnpm test",
+      "pnpm test -- --findRelatedTests",
       "pnpm lint:fix",
       "pnpm prettier:fix",
       "git add ."
