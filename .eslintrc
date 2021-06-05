@@ -1,0 +1,17 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "no-unused-vars": "warn"
+  }
+}
