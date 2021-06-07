@@ -1,4 +1,4 @@
-const merge = require('utils/merge')
+const merge = require('../utils/merge')
 
 describe('Merge', () => {
   it('isPlainObject', () => {

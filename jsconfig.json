@@ -3,10 +3,6 @@
 		"target": "es6",
 		"module": "commonJS",
 		"baseUrl": ".",
-		"paths": {
-			"configs": ["configs/*"],
-			"utils": ["utils/*"]
-		}
 	},
 	"exclude": ["node_modules"]
 }
