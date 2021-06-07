@@ -3,9 +3,19 @@
   "description": "Custom ESLint configurations",
   "author": "Junn",
   "license": "MIT",
+  "version": "1.0.0",
   "keywords": [
     "eslint",
     "eslintconfig"
+  ],
+  "files": [
+    "index.js",
+    "base.js",
+    "react.js",
+    "typescript.js",
+    "typescript-react.js",
+    "configs/",
+    "utils/"
   ],
   "scripts": {
     "test": "jest",
