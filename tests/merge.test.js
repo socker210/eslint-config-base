@@ -28,6 +28,9 @@ describe('Merge', () => {
       foo3: 3,
     }
     const o3 = {
+      bar: {
+        foo2: 2,
+      },
       foo2: [3, 4],
     }
 
@@ -35,6 +38,7 @@ describe('Merge', () => {
       foo: 1,
       bar: {
         foo: 2,
+        foo2: 2,
       },
       foo2: [1, 2, 3, 4],
       foo3: 3,

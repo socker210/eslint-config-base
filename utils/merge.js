@@ -12,6 +12,10 @@ function isMergeable(target) {
   return isArray(target) || isPlainObject(target)
 }
 
+function containsKey(target, key) {
+  return key in target
+}
+
 function merge(...targets) {
   const result = {}
 
@@ -22,11 +26,14 @@ function merge(...targets) {
           const isResArray = isArray(res[key])
           const isTargetArray = isArray(target[key])
           const bothAreArray = isResArray && isTargetArray
+          const resHasKey = containsKey(res, key)
 
           res[key] = bothAreArray
             ? res[key].concat(target[key])
             : isTargetArray
             ? [...target[key]]
+            : resHasKey
+            ? merge(res[key], target[key])
             : merge(target[key])
         } else {
           res[key] = target[key]

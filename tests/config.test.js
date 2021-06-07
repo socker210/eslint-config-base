@@ -7,7 +7,7 @@ describe('Config', () => {
   it('base', () => {
     expect(base).toEqual({
       env: { node: true },
-      parserOptions: { ecmaVersion: 6, sourceType: 'module' },
+      parserOptions: { ecmaVersion: 2021, sourceType: 'module' },
       extends: [
         'eslint:recommended',
         'plugin:jest/recommended',
@@ -20,7 +20,11 @@ describe('Config', () => {
   it('react', () => {
     expect(react).toEqual({
       env: { node: true },
-      parserOptions: { ecmaFeatures: { jsx: true } },
+      parserOptions: {
+        ecmaVersion: 2021,
+        sourceType: 'module',
+        ecmaFeatures: { jsx: true },
+      },
       extends: [
         'eslint:recommended',
         'plugin:jest/recommended',
@@ -36,7 +40,7 @@ describe('Config', () => {
   it('typescript', () => {
     expect(typescript).toEqual({
       env: { node: true },
-      parserOptions: { ecmaVersion: 6, sourceType: 'module' },
+      parserOptions: { ecmaVersion: 2021, sourceType: 'module' },
       extends: [
         'eslint:recommended',
         'plugin:jest/recommended',
@@ -51,7 +55,11 @@ describe('Config', () => {
   it('typescript-react', () => {
     expect(typescriptReact).toEqual({
       env: { node: true },
-      parserOptions: { ecmaFeatures: { jsx: true } },
+      parserOptions: {
+        ecmaVersion: 2021,
+        sourceType: 'module',
+        ecmaFeatures: { jsx: true },
+      },
       extends: [
         'eslint:recommended',
         'plugin:jest/recommended',
