@@ -38,7 +38,8 @@
   },
   "peerDependencies": {
     "eslint": ">=7",
-    "prettier": ">=2"
+    "prettier": ">=2",
+    "jest": ">=27"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.26.0",
