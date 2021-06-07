@@ -1,5 +1,5 @@
 {
-  "name": "@socker210/eslint-config-base",
+  "name": "eslint-config-forme",
   "description": "Custom ESLint configurations",
   "author": "Junn",
   "license": "MIT",
