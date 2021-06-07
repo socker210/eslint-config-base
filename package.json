@@ -4,6 +4,7 @@
   "author": "Junn",
   "license": "MIT",
   "version": "1.0.0",
+  "homepage": "https://github.com/socker210/eslint-config-forme",
   "keywords": [
     "eslint",
     "eslintconfig"
