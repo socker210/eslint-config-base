@@ -8,10 +8,6 @@
 - plugin:jest/recommended
 - plugin:prettier/recommended
 
-### rules
-
-- no-unused-vars: `warn`
-
 ## react
 
 ### extends
