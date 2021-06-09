@@ -3,7 +3,7 @@
   "description": "Custom ESLint configurations",
   "author": "Junn",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/socker210/eslint-config-forme",
   "keywords": [
     "eslint",
