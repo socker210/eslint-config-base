@@ -13,7 +13,6 @@ describe('Config', () => {
         'plugin:jest/recommended',
         'plugin:prettier/recommended',
       ],
-      rules: { 'no-unused-vars': 'warn' },
     })
   })
 
@@ -32,7 +31,6 @@ describe('Config', () => {
         'plugin:react-hooks/recommended',
         'plugin:prettier/recommended',
       ],
-      rules: { 'no-unused-vars': 'warn' },
       settings: { react: { version: 'detect' } },
     })
   })
@@ -48,7 +46,6 @@ describe('Config', () => {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:prettier/recommended',
       ],
-      rules: { 'no-unused-vars': 'warn' },
     })
   })
 
@@ -69,7 +66,6 @@ describe('Config', () => {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:prettier/recommended',
       ],
-      rules: { 'no-unused-vars': 'warn' },
       settings: { react: { version: 'detect' } },
     })
   })

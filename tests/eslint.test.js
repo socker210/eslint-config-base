@@ -12,6 +12,6 @@ describe('ESLint', () => {
 
     const [res] = await eslint.lintText('const a = 10\na = 20')
 
-    expect(res.errorCount).toBe(2)
+    expect(res.errorCount).toBe(3)
   })
 })

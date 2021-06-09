@@ -7,7 +7,4 @@ module.exports = {
     sourceType: 'module',
   },
   extends: ['eslint:recommended'],
-  rules: {
-    'no-unused-vars': 'warn',
-  },
 }
